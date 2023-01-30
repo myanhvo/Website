@@ -1,118 +1,105 @@
+head:
+  title: "Anh Vo's Portfolio"
+
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Andreas."
-  subtitle: "Front-End Developer"
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  title: "Hello, I'm Anh Vo."
+  subtitle: "Data Science student"
+  description: "<br> 
+  I am a junior in Data Science and Statistics at Miami University. 
+  I'm actively looking for internship roles in Data Science, Data Engineer, and Data Analyst. <br> <br>
+  I have strong foundation in Statistics (Predictive, Inferential, Regression Analysis) with a background in Machine Learning and Data Structures/Algorithms. 
+  My tech stack includes Python (NumPy, Pandas, Matplotlib), R (Shiny, ggplot2, dplyr), SAS (marcos),
+  Microsoft Office, OS (Windows, MacOS, Linux)"
   image:
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "img/who-am-i/photo.jpeg"
+    _2x: "img/who-am-i/photo.jpeg"
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "img/who-am-i/photo.jpeg"
+    _2x: "img/who-am-i/photo.jpeg"
 
   button:
-    icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    icon: "icon-profile-fill"
+    btnText: "My Resume"
+    URL: "https://drive.google.com/file/d/1gavupNTU_SgSbi66mNWmuHirmaxfeqgh/view?usp=sharing"
 
-  socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
-
-    - icon: "github"
-      URL: "https://github.com/radity"
-
-    - icon: "twitter"
-      URL: "https://twitter.com/radity"
-
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
-
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
-
-    - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
 
 # about
 about:
-  enable: true
+  enable: false
   title: "Who am I?"
-  content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+  content: 
+    <p class="lead">
+    <strong>I have always had a passion for data science.</strong> It amazes me everytime how data can tell
+    numerous stories from different perspectives. 
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
-    </p>'
+    <strong>My expertise </strong> is applying data science to business. 
+    I communicate with clients about their current demands, 
+    then analyze and deliver the best solutions to maximize satisfaction. I push myself to improve from past experiences and take advantages of new opportunities.
+    </p>
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/anh-vo-thuy-my/"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/who-am-i/IMG_3447.jpg"
+    _2x: "img/who-am-i/IMG_3447.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: <pre style="border-width:4px; border-style:hidden hidden hidden solid; border-color:#FF0000"> <font size="+1.7"> <DFN>  Over 2+ years of experience working in data. <br>    My expertise is applying data science to <br>    business. I communicate with clients about the <br>    current demands, then analyze and deliver the <br>    best solutions to maximize satisfaction. <br> <br>    Please refer to my resume below for details. </DFN> </pre>
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/anh-vo-thuy-my/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/1gavupNTU_SgSbi66mNWmuHirmaxfeqgh/view?usp=sharing"
+
+  items:
+    - title: "Statistical Consultant"
+      company: "Consulting Center - Miami University"
+      duration: "May 2022 - Present"
+      description:     <pre class="paragraph">    ➤ Provide feedback through statistical insights for 50 <br> clients’    
+             research papers to be published to journals. <br>    ➤ Utilize complex methods (Fisher’s Exact, Multinomial 
+             <br> Logistic Regression,etc) for analyses and visualizations <br>    ➤ Co-authorship for research study of the effectiveness <br>
+             of an MRML Course developed/administered by Envision Partnerships </pre>
+    
+    - title: "Bioinformatics Research Assistant"
+      company: "The Lee Lab"
+      duration: "May 2022 - January 2023"
+      description:     <pre class="paragraph">    ➤ Conduct genome-wide association studies research with Dr. <br> Donghyung Lee on the association between humans’ most common <br> genetic variation (SNPs) and COVID-19 symptoms’ level. <br>    ➤ Utilize multivariate regression and Dr. Lee’s 33KG reference <br> panel for 8M unmeasured SNPs imputation across 50M base pairs & <br> 22 gene regions</pre>
+    
+    - title: "Data Analyst - Student Master II"
+      company: "Discovery Center for Evaluation, Research, and Professional Learning"
+      duration: "February 2022 - June 2022"
+      description:     <pre class="paragraph">    ➤ Extracted and handle big data 95,000 from Miami University’s <br> surveys for courses’ evaluations and readjustments. <br>    ➤ Conducted student/faculty analysis based on questionnaires <br> with intensive use of R and Excel </pre>
 
 # education
 education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "Miami University"
+      year: "2020-2024"
+      degree: "Bachelor of Science in Data Science and Statistics. <br> Minor in Computer Science"
+    - university: "Related Coursework"
+      degree: "Machine Learning (Python), Statistical Programming (SAS, R), Database System (SQL), Inferential Statistics (R),
+       Regression Analysis, Data Structures and Algorithms, Data Visualization (SAS, R, Shiny), 
+       Web App Programming (HTML, Javascript, AJAX)"
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
-
-# experience
-experience:
-  enable: true
-  title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
-  button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "#"
-
-  items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
-
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
-
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
 
 # Client & Work
 client_and_work:
-  title: "Clients & Works"
+  title: "Portfolio"
   enable: true
-
+  
+  enable_clients: false
   clients:
     - logo:
         x: "img/clients/asgardia.png"
@@ -145,90 +132,115 @@ client_and_work:
       alt: "Ztos"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Digest of Education Application"
+      description: "This application analyzes trends in education through the years in 50 US states. The app was made with RShiny. Full user guide can be found in the GitHub link in About tab "
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Launch Application"
+        URL: "https://myanhvo.shinyapps.io/Digest-Of-Education-Statistics-App/"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/work1.png"
+        _2x: "img/works/work1.png"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "Spotify Predictions"
+      description: "This program was built to train and create a model that predicts Spotify popularity scores for 70K tracks using 
+      23 known predictor variables from raw RData. Full user guide on GitHub "
       button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        icon: "icon-github-line"
+        btnText: "GitHub "
+        URL: "https://github.com/myanhvo/SpotifyPredictions"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/work2.png"
+        _2x: "img/works/work2.png"
       is_even: false
-
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      
+    - title: "Learning from compressed images"
+      description: "In this group project, we studied simplifying images onto the ability of a ML algorithm to pick up patterns.
+We compressed 10,000 images, performed simulations (SIR, Cascade, and Rumor models) to produce images based on adjacency matrix; outputs
+used reordering methods to highlight the correct emergence of patterns, and evaluated images after hyperparameter tuning.
+      
+      "
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Paper"
+        URL: "https://drive.google.com/file/u/1/d/1kYpwZber6qyilh17QVeAKu097JgXJQHT/view?usp=sharing"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
+        x: "img/works/work3.png"
+        _2x: "img/works/work3.png"
+      is_even: true     
+
+    - title: "Movies Recommendation"
+      description: "This application takes 14 million movies tags and evaluates 27 million user ratings associated with 58,000
+movies, then suggests an input number of movies based on the input genre with users’ preferences (rating scores,
+year released). User guide on GitHub."
+      button:
+        icon: "icon-github-line"
+        btnText: "GitHub"
+        URL: "https://github.com/myanhvo/MoviesandVideos"
+      image:
+        x: "img/works/work4.png"
+        _2x: "img/works/work4.png"
+      is_even: false
+    
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+  
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+        
+    - name: "Chris Selig"
+      position: "Data Scientist"
+      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+      image:
+        x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+    
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+    - name: "Mohana Krishna Chittoor"
+      position: "Lead Data Scientist, Money View"
+      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
       image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
 
 # contact
 contact:
   enable: true
-  title: "Contact"
-  form:
-    action: "#"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
-  phone:
-    title: "Phone Number"
-    number: "+41 (44) 505 10 99"
-  email:
-    title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
-  address:
-    title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+  title: "Contact Anh"
+    
+  image:
+    x: "img/who-am-i/project_resized.jpg"
+    _2x: "img/who-am-i/project_resized.jpg"
+    
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
+    btnAction: 'mailto:vothuymyanh@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "513-372-5297"
+  email:
+    title: "Email"
+    email: '<a href="mailto:vothuymyanh@gmail.com">vothuymyanh@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "417 Wells Mill Dr, Oxford, OH 45056"
+  
 
 # newsletter
 newsletter:
-  enable: true
+  enable: false
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
